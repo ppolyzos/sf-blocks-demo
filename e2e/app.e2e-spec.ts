@@ -1,6 +1,6 @@
 import { MyAppPage } from './app.po';
 
-describe('my-app App', () => {
+describe('blocks-demo App', () => {
   let page: MyAppPage;
 
   beforeEach(() => {
