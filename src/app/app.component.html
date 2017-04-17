@@ -1,3 +1,13 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="">
+  Total Requests: {{stats.total}}, Avg: {{avgRequests}} / sec
+</div>
+
+<ul class="block-container">
+  <li *ngFor="let block of blocks" [ngStyle]="{ 'background': block.color }">
+      {{block.index}}
+  </li>
+</ul>
